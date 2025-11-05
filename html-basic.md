@@ -1,0 +1,163 @@
+
+# HTML Basic
+---
+
+## Introduction
+
+**Hypertext Markup Language (HTML)** is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content
+
+## HTML Structure
+
+**Structure:**
+
+```html
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body></body>
+</html>
+```
+- ``<html>`` : Root element of the HTML page.
+- ``<head>`` : Contains meta information (title, styles, scripts).
+- ``<title>`` : Sets the title shown in the browser tab.
+- ``<body>`` : Contains the visible content of the webpage.
+
+**Task:**  
+Create a simple HTML document named `firstpage.html` that displays a heading and a short paragraph.
+
+**Example:**
+
+```html
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My First HTML Page</h1>
+    <p>This is my introduction to web development using HTML.</p>
+</body>
+</html>
+```
+**Key Points:**
+- HTML uses tags enclosed in ``< >``.
+
+- Most tags have opening ``<tag>`` and closing ``</tag>``.
+
+- HTML is not case-sensitive, but lowercase is preferred.
+
+- HTML defines structure, not style (CSS handles design).
+
+---
+
+## Background, Foreground & Titles
+
+**Task:**  
+Modify your page with background and text color using `<body>` attributes.
+
+```html
+<body bgcolor="lightblue" text="darkblue">
+    <h2>HTML Colors Example</h2>
+    <p>The background is light blue and text is dark blue.</p>
+</body>
+```
+
+---
+
+## Headings, Paragraphs, and Line Breaks
+
+**Task:**  
+Use heading tags (`<h1>` to `<h6>`), paragraph (`<p>`), and line break (`<br>`) tags.
+
+```html
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<p>This is a paragraph.<br>It continues on the next line.</p>
+```
+
+---
+
+## Text Formatting
+
+**Task:**  
+Create a file `formatting.html` using the following tags:
+```html
+<b>Bold</b>, <i>Italic</i>, <u>Underline</u>, <mark>Marked</mark>, 
+<sup>Superscript</sup>, <sub>Subscript</sub>, <em>Emphasis</em>
+```
+
+**Example:**
+```html
+<p>This is <b>bold</b> and <i>italic</i> text.</p>
+<p>Water formula is H<sub>2</sub>O and 3<sup>2</sup> = 9.</p>
+```
+
+---
+
+## Lists (Ordered, Unordered & Definition)
+
+**Task:**  
+Create a file `lists.html` and practice all three list types.
+
+```html
+<h2>Ordered List</h2>
+<ol type="A" start="3">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+<h2>Unordered List</h2>
+<ul type="square">
+  <li>Chrome</li>
+  <li>Firefox</li>
+  <li>Edge</li>
+</ul>
+
+<h2>Definition List</h2>
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+</dl>
+```
+
+---
+
+## Creating Links
+
+**Task:**  
+Learn how to create internal and external links using the `<a>` tag.
+
+```html
+<a href="lists.html">Open Lists Page</a><br>
+<a href="https://www.google.com" target="_blank">Go to Google</a>
+```
+
+---
+
+## Address and Comments
+
+**Task:**
+Use `<address>` and comments to make your page more descriptive.
+
+```html
+<!-- This is my address section -->
+<address>
+Written by: <b>John Doe</b><br>
+Email: john@example.com<br>
+Location: Kathmandu, Nepal
+</address>
+```
+
+---
+
+## Final Practical — Simple Information Page about HTML
+
+**Objective:**  
+Create a single-page HTML document called `info.html` that includes:
+- Headings & Paragraphs  
+- Text Formatting  
+- Ordered & Unordered Lists  
+- A Link  
+- An Address Section  
+---
