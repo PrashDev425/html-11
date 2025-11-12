@@ -15,7 +15,9 @@
     <head>
         <title></title>
     </head>
-    <body></body>
+    <body>
+
+    </body>
 </html>
 ```
 - ``<html>`` : Root element of the HTML page.
@@ -40,12 +42,10 @@ Create a simple HTML document named `firstpage.html` that displays a heading and
 </html>
 ```
 **Key Points:**
+
 - HTML uses tags enclosed in ``< >``.
-
 - Most tags have opening ``<tag>`` and closing ``</tag>``.
-
 - HTML is not case-sensitive, but lowercase is preferred.
-
 - HTML defines structure, not style (CSS handles design).
 
 ---
@@ -55,12 +55,18 @@ Create a simple HTML document named `firstpage.html` that displays a heading and
 **Task:**  
 Modify your page with background and text color using `<body>` attributes.
 
+You can use:
+
+- Color names (e.g., ``lightblue``, ``pink``, ``yellow``)
+- Hex codes (e.g.,``#ffcc00``)
+- RGB values (e.g., ``rgba(225, 201, 106, 1)``)
+
 ```html
 <body bgcolor="lightblue" text="darkblue">
     <h2>HTML Colors Example</h2>
     <p>The background is light blue and text is dark blue.</p>
 </body>
-```
+``
 
 ---
 
@@ -70,8 +76,12 @@ Modify your page with background and text color using `<body>` attributes.
 Use heading tags (`<h1>` to `<h6>`), paragraph (`<p>`), and line break (`<br>`) tags.
 
 ```html
-<h1>Main Heading</h1>
-<h2>Sub Heading</h2>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 <p>This is a paragraph.<br>It continues on the next line.</p>
 ```
 
@@ -96,8 +106,34 @@ Create a file `formatting.html` using the following tags:
 
 ## Lists (Ordered, Unordered & Definition)
 
+| **Type**             | **Tag** | **Description**                                                                 |
+| -------------------- | ------- | ------------------------------------------------------------------------------- |
+| **Ordered List**     | `<ol>`  | Displays list items in a **specific order** (numbers, letters, roman numerals). |
+| **Unordered List**   | `<ul>`  | Displays list items with **bullets** (no specific order).                       |
+| **Description List** | `<dl>`  | Displays **terms and their descriptions** (like a glossary).                    |
+
 **Task:**  
 Create a file `lists.html` and practice all three list types.
+
+
+### Types of Ordered List:
+
+| Type       | Description              | Example Output  |
+| ---------- | ------------------------ | --------------- |
+| `type="1"` | Numbers (default)        | 1, 2, 3, ...    |
+| `type="A"` | Uppercase letters        | A, B, C, ...    |
+| `type="a"` | Lowercase letters        | a, b, c, ...    |
+| `type="I"` | Uppercase Roman numerals | I, II, III, ... |
+| `type="i"` | Lowercase Roman numerals | i, ii, iii, ... |
+
+### Types of Unordered List:
+
+| Type            | Description            | Example Bullet |
+| --------------- | ---------------------- | -------------- |
+| `type="disc"`   | Solid circle (default) | ●              |
+| `type="circle"` | Hollow circle          | ○              |
+| `type="square"` | Solid square           | ■              |
+
 
 ```html
 <h2>Ordered List</h2>
