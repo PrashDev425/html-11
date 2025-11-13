@@ -4,7 +4,7 @@
 
 ## Introduction
 
-**Hypertext Markup Language (HTML)** is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content
+**Hypertext Markup Language (HTML)** is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.
 
 ## HTML Structure
 
@@ -33,7 +33,7 @@ Create a simple HTML document named `firstpage.html` that displays a heading and
 ```html
 <html>
 <head>
-    <title>My First HTML Page</title>
+    <title>HTML Page</title>
 </head>
 <body>
     <h1>Welcome to My First HTML Page</h1>
@@ -62,11 +62,16 @@ You can use:
 - RGB values (e.g., ``rgba(225, 201, 106, 1)``)
 
 ```html
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
 <body bgcolor="lightblue" text="darkblue">
     <h2>HTML Colors Example</h2>
     <p>The background is light blue and text is dark blue.</p>
 </body>
-``
+</html>
+```
 
 ---
 
@@ -76,13 +81,20 @@ You can use:
 Use heading tags (`<h1>` to `<h6>`), paragraph (`<p>`), and line break (`<br>`) tags.
 
 ```html
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<p>This is a paragraph.<br>It continues on the next line.</p>
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
+<body>
+   <h1>Heading 1</h1>
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
+   <p>This is a paragraph.<br>It continues on the next line.</p>
+</body>
+</html>
 ```
 
 ---
@@ -98,8 +110,16 @@ Create a file `formatting.html` using the following tags:
 
 **Example:**
 ```html
-<p>This is <b>bold</b> and <i>italic</i> text.</p>
-<p>Water formula is H<sub>2</sub>O and 3<sup>2</sup> = 9.</p>
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
+<body>
+   <p>This is <b>bold</b> and <i>italic</i> text.</p>
+   <p>This is <mark>Marked</mark>, <u>Underline</u>, <sup>Superscript</sup>, <sub>Subscript</sub> and <em>Emphasis</em></p>
+   <p>Water formula is H<sub>2</sub>O and 3<sup>2</sup> = 9.</p>
+</body>
+</html>
 ```
 
 ---
@@ -136,25 +156,32 @@ Create a file `lists.html` and practice all three list types.
 
 
 ```html
-<h2>Ordered List</h2>
-<ol type="A" start="3">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ol>
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
+<body>
+   <h2>Ordered List</h2>
+   <ol type="A" start="3">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+   </ol>
 
-<h2>Unordered List</h2>
-<ul type="square">
-  <li>Chrome</li>
-  <li>Firefox</li>
-  <li>Edge</li>
-</ul>
+   <h2>Unordered List</h2>
+   <ul type="square">
+      <li>Chrome</li>
+      <li>Firefox</li>
+      <li>Edge</li>
+   </ul>
 
-<h2>Definition List</h2>
-<dl>
-  <dt>HTML</dt>
-  <dd>HyperText Markup Language</dd>
-</dl>
+   <h2>Definition List</h2>
+   <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+   </dl>
+</body>
+</html>
 ```
 
 ---
@@ -165,8 +192,15 @@ Create a file `lists.html` and practice all three list types.
 Learn how to create internal and external links using the `<a>` tag.
 
 ```html
-<a href="lists.html">Open Lists Page</a><br>
-<a href="https://www.google.com" target="_blank">Go to Google</a>
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
+<body>
+   <a href="lists.html">Open Lists Page</a><br>
+   <a href="https://www.google.com" target="_blank">Go to Google</a>
+</body>
+</html>
 ```
 
 ---
@@ -177,12 +211,18 @@ Learn how to create internal and external links using the `<a>` tag.
 Use `<address>` and comments to make your page more descriptive.
 
 ```html
-<!-- This is my address section -->
-<address>
-Written by: <b>John Doe</b><br>
-Email: john@example.com<br>
-Location: Kathmandu, Nepal
-</address>
+<html>
+<head>
+    <title>HTML Page</title>
+</head>
+<body>
+   <address>
+   Written by: <b>John Doe</b><br>
+   Email: john@example.com<br>
+   Location: Kathmandu, Nepal
+   </address>
+</body>
+</html>
 ```
 
 ---
@@ -196,4 +236,6 @@ Create a single-page HTML document called `info.html` that includes:
 - Ordered & Unordered Lists  
 - A Link  
 - An Address Section  
+
+**Example Output:**
 ---
