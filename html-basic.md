@@ -1,6 +1,36 @@
 # HTML Basic
 
-## Opening and Closing Tags
+1. [Tags: Opening and Closing Tags](#tags-opening-and-closing-tags)
+2. [HTML Attributes](#html-attributes)
+3. [Common HTML Attributes](#common-html-attributes)
+4. [Basic HTML Structure](#basic-html-structure)
+5. [Basic HTML Tags](#basic-html-tags)
+   - [1. Heading Tags](#1-heading-tags)
+   - [2. Paragraph](#2-paragraph)
+   - [3. Line Break](#3-line-break)
+   - [4. Horizontal Line](#4-horizontal-line)
+   - [5. Bold Text](#5-bold-text)
+   - [6. Italic Text](#6-italic-text)
+   - [7. Underlined Text](#7-underlined-text)
+   - [8. Highlighted Text](#8-highlighted-text)
+   - [9. Small Text](#9-small-text)
+   - [10. Deleted Text](#10-deleted-text)
+   - [11. Inserted Text](#11-inserted-text)
+   - [12. Superscript](#12-superscript)
+   - [13. Subscript](#13-subscript)
+   - [14. Hyperlink](#14-hyperlink)
+   - [15. Image Tag](#21-image-tag)
+   - [16. Division](#16-division)
+   - [17. Span](#17-span)
+   - [18. Lists](#18-lists)
+      - [Unordered List](#unordered-list)
+      - [Ordered List](#ordered-list)
+   - [19. Comment](#19-comment)
+   - [20. Preformatted Text](#20-preformatted-text)
+
+## Tags: Opening and Closing Tags
+
+In **HTML**, ``tags`` are special keywords enclosed in angle brackets ``< >`` that define the structure and content of a web page. They tell the browser how to display text, images, links, forms, and other elements.
 
 Most HTML elements have:
 
