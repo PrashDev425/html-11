@@ -7,6 +7,12 @@ Most HTML elements have:
 * **Opening tag:** `<tagname>`
 * **Closing tag:** `</tagname>`
 
+Syntax:
+
+```html
+<tagname>Content</tagname>
+```
+
 Example:
 
 ```html
@@ -18,6 +24,12 @@ Example:
 * Closing tag: `</p>`
 
 Some tags are **self-closing (void elements)** and do not need a closing tag.
+
+Syntax:
+
+```html
+<tagname>
+```
 
 Example:
 
@@ -38,17 +50,6 @@ Syntax:
 ```html
 <tagname attribute="value">Content</tagname>
 ```
-
-Example:
-
-```html
-<a href="https://example.com">Visit Website</a>
-```
-
-Here,
-
-* `href` is the attribute.
-* `https://example.com` is its value.
 
 ## Common HTML Attributes
 
