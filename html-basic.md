@@ -2,9 +2,9 @@
 
 1. [Tags: Opening and Closing Tags](#tags-opening-and-closing-tags)
 2. [HTML Attributes](#html-attributes)
-3. [Common HTML Attributes](#common-html-attributes)
-4. [Basic HTML Structure](#basic-html-structure)
-5. [Basic HTML Tags](#basic-html-tags)
+   - [Common HTML Attributes](#common-html-attributes)
+3. [Basic HTML Structure](#basic-html-structure)
+4. [Basic HTML Tags](#basic-html-tags)
    - [1. Heading Tags](#1-heading-tags)
    - [2. Paragraph](#2-paragraph)
    - [3. Line Break](#3-line-break)
@@ -81,7 +81,7 @@ Syntax:
 <tagname attribute="value">Content</tagname>
 ```
 
-## Common HTML Attributes
+### Common HTML Attributes
 
 | Attribute | Purpose                    | Example                  |
 | --------- | -------------------------- | ------------------------ |
