@@ -102,14 +102,30 @@ Syntax:
 
 ```html
 <html>
-<head>
-    <title>My First HTML Page</title>
-</head>
-<body>
-    <h1>Welcome to HTML</h1>
-    <p>This is a basic HTML page.</p>
-</body>
+    <head>
+        <title>My First HTML Page</title>
+    </head>
+    <body>
+        <h1>Welcome to HTML</h1>
+        <p>This is a basic HTML page.</p>
+    </body>
 </html>
+```
+
+```mermaid
+graph TD
+    A["&lt;html&gt;"]
+    B["&lt;head&gt;"]
+    C["&lt;title&gt;\nMy First HTML Page\n&lt;/title&gt;"]
+    D["&lt;body&gt;"]
+    E["&lt;h1&gt;\nWelcome to HTML\n&lt;/h1&gt;"]
+    F["&lt;p&gt;\nThis is a basic HTML page.\n&lt;/p&gt;"]
+
+    A --> B
+    A --> D
+    B --> C
+    D --> E
+    D --> F
 ```
 
 | **HTML Tag** | **Purpose**                                                                                |
