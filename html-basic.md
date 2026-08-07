@@ -114,12 +114,12 @@ Syntax:
 
 ```mermaid
 graph TD
-    A["&lt;html&gt;"]
-    B["&lt;head&gt;"]
-    C["&lt;title&gt;\nMy First HTML Page\n&lt;/title&gt;"]
-    D["&lt;body&gt;"]
-    E["&lt;h1&gt;\nWelcome to HTML\n&lt;/h1&gt;"]
-    F["&lt;p&gt;\nThis is a basic HTML page.\n&lt;/p&gt;"]
+    A["html"]
+    B["head"]
+    C["title"]
+    D["body"]
+    E["h1"]
+    F["p"]
 
     A --> B
     A --> D
