@@ -1,10 +1,11 @@
 # HTML Basic
 
-1. [Tags: Opening and Closing Tags](#tags-opening-and-closing-tags)
-2. [HTML Attributes](#html-attributes)
+1. [Introduction to HTML](#introduction-to-html)
+2. [Tags: Opening and Closing Tags](#tags-opening-and-closing-tags)
+3. [HTML Attributes](#html-attributes)
    - [Common HTML Attributes](#common-html-attributes)
-3. [Basic HTML Structure](#basic-html-structure)
-4. [Basic HTML Tags](#basic-html-tags)
+4. [Basic HTML Structure](#basic-html-structure)
+5. [Basic HTML Tags](#basic-html-tags)
    - [1. Heading Tags](#1-heading-tags)
    - [2. Paragraph](#2-paragraph)
    - [3. Line Break](#3-line-break)
@@ -27,6 +28,14 @@
       - [Ordered List](#ordered-list)
    - [19. Comment](#19-comment)
    - [20. Preformatted Text](#20-preformatted-text)
+
+## Introduction to HTML
+
+- **HTML** stands for **HyperText Markup Language**.
+- It is used to create and structure **web pages** on the **World Wide Web**.
+- It is a **markup language**, not a **programming language**.
+- It provides the **structure** of a webpage.
+- HTML documents use the ``.html`` file extension.
 
 ## Tags: Opening and Closing Tags
 
@@ -114,12 +123,12 @@ Syntax:
 
 ```mermaid
 graph TD
-    A["html"]
-    B["head"]
-    C["title"]
-    D["body"]
-    E["h1"]
-    F["p"]
+    A["&lt;html&gt;"]
+    B["&lt;head&gt;"]
+    C["&lt;title&gt;\nMy First HTML Page\n&lt;/title&gt;"]
+    D["&lt;body&gt;"]
+    E["&lt;h1&gt;\nWelcome to HTML\n&lt;/h1&gt;"]
+    F["&lt;p&gt;\nThis is a basic HTML page.\n&lt;/p&gt;"]
 
     A --> B
     A --> D
