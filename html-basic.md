@@ -26,6 +26,7 @@
    - [18. Lists](#18-lists)
       - [Unordered List](#unordered-list)
       - [Ordered List](#ordered-list)
+      - [Defination List](#definition-list)
    - [19. Comment](#19-comment)
    - [20. Preformatted Text](#20-preformatted-text)
 
@@ -192,24 +193,12 @@ Second Line
 <b>Bold Text</b>
 ```
 
-or
-
-```html
-<strong>Important Text</strong>
-```
-
 ---
 
 ### 6. Italic Text
 
 ```html
 <i>Italic Text</i>
-```
-
-or
-
-```html
-<em>Emphasized Text</em>
 ```
 
 ---
@@ -339,12 +328,16 @@ The `<img>` tag is used to display an image on a web page.
 
 ### 18. Lists
 
+In **HTML**, lists are used to display information as a **group of items**, such as ``names``, ``subjects``, ``steps``, or ``definitions``.
+
 **``type`` attribute**
 
 The `type` attribute specifies the numbering style of an ordered list (`<ol>`) or the bullet style of an unordered list (`<ul>`).
 
 
 #### Unordered List
+
+A unordered list is used to displays items with bullets.
 
 | Type             | Description     |
 | ---------------- | --------------- |
@@ -364,6 +357,8 @@ The `type` attribute specifies the numbering style of an ordered list (`<ol>`) o
 
 #### Ordered List
 
+A ordered list is used to display items in a numbered or ordered form.
+
 | Type          | Description              | Example Output |
 | ------------- | ------------------------ | -------------- |
 | `1` (default) | Numbers                  | 1, 2, 3        |
@@ -378,6 +373,29 @@ The `type` attribute specifies the numbering style of an ordered list (`<ol>`) o
     <li>Study</li>
     <li>Sleep</li>
 </ol>
+```
+
+#### Definition List
+
+A definition list is used to display a list of terms and their corresponding descriptions.
+
+| Tag    | Description                         |
+| ------ | ----------------------------------- |
+| `<dl>` | Defines the definition list         |
+| `<dt>` | Defines the term/name               |
+| `<dd>` | Defines the description of the term |
+
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+
+    <dt>JavaScript</dt>
+    <dd>A programming language used to make web pages interactive.</dd>
+</dl>
 ```
 
 ---
