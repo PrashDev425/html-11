@@ -33,6 +33,7 @@
 ## Introduction to HTML
 
 - **HTML** stands for **HyperText Markup Language**.
+- **HTML** was created by **Tim Berners-Lee** in **1991** at **CERN** to structure and link documents on the **World Wide Web**.
 - It is used to create and structure **web pages** on the **World Wide Web**.
 - It is a **markup language**, not a **programming language**.
 - It provides the **structure** of a webpage.
